@@ -15,6 +15,7 @@
 		DDD98E0222E9421B00944A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98E0122E9421B00944A7F /* main.m */; };
 		DDD98E0C22E9421B00944A7F /* PDDispatchQueuePoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98E0B22E9421B00944A7F /* PDDispatchQueuePoolTests.m */; };
 		DDD98E1722E9421B00944A7F /* PDDispatchQueuePoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98E1622E9421B00944A7F /* PDDispatchQueuePoolUITests.m */; };
+		DDD98E2722E9423200944A7F /* PDDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98E2622E9423200944A7F /* PDDispatchQueuePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDD98E1222E9421B00944A7F /* PDDispatchQueuePoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDDispatchQueuePoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD98E1622E9421B00944A7F /* PDDispatchQueuePoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDDispatchQueuePoolUITests.m; sourceTree = "<group>"; };
 		DDD98E1822E9421B00944A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD98E2522E9423200944A7F /* PDDispatchQueuePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDDispatchQueuePool.h; sourceTree = "<group>"; };
+		DDD98E2622E9423200944A7F /* PDDispatchQueuePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDDispatchQueuePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DDD98DF122E9421A00944A7F /* PDDispatchQueuePool */ = {
 			isa = PBXGroup;
 			children = (
+				DDD98E2422E9422200944A7F /* Source */,
 				DDD98DF222E9421A00944A7F /* AppDelegate.h */,
 				DDD98DF322E9421A00944A7F /* AppDelegate.m */,
 				DDD98DF522E9421A00944A7F /* ViewController.h */,
@@ -130,6 +134,15 @@
 				DDD98E1822E9421B00944A7F /* Info.plist */,
 			);
 			path = PDDispatchQueuePoolUITests;
+			sourceTree = "<group>";
+		};
+		DDD98E2422E9422200944A7F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DDD98E2522E9423200944A7F /* PDDispatchQueuePool.h */,
+				DDD98E2622E9423200944A7F /* PDDispatchQueuePool.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				DDD98DF722E9421A00944A7F /* ViewController.m in Sources */,
 				DDD98E0222E9421B00944A7F /* main.m in Sources */,
 				DDD98DF422E9421A00944A7F /* AppDelegate.m in Sources */,
+				DDD98E2722E9423200944A7F /* PDDispatchQueuePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
